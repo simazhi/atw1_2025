@@ -8,18 +8,19 @@ format:
     slide-number: true
     code-line-numbers: true
     embed-resources: true
+    incremental: false
     # multiplex: true
 # html-math-method:
 #   method: mathjax
 #   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
   - name: Dr. Thomas Van Hoey
-    orcid: 0000-0002-5226-9752
+    # orcid: 0000-0002-5226-9752
     email: thomas.vanhoey@kuleuven.be
-    affiliation:
-      - name: QLVL @ KU Leuven
+    # affiliation:
+    #   - name: QLVL @ KU Leuven
         # url: www.ed.ac.uk
-date: "25 September 2024"
+date: "25 September 2025"
 logo: inputfiles/kul.png
 # bibliography: refs.bib
 # code-link: true
@@ -63,6 +64,7 @@ Aanleren en inoefenen van de belangrijkste analysemethoden voor deze domeinen.
 * Japans
 * Chinees
 * Filosofie
+* Schakelprogramma
 * Andere?
 
 :::
@@ -151,17 +153,10 @@ Zeker met betrekking tot vragen over het handboek.
 
 [3. Spreekuur]{.alert2}
 
-* op afspraak ()
+* op afspraak (via mail)
 * lokaal LETT 02.32
 
 :::
-
-
-### 
-
-
-### 
-
 
 
 
@@ -169,11 +164,16 @@ Zeker met betrekking tot vragen over het handboek.
 
 Tips voor goede communicatie aan de universiteit
 
+::: {.fragment}
+
 [Geef een duidelijk onderwerp op]{.alert2}
 
 * "ATW1 vraag over morfologie"
 
-. . .
+:::
+
+
+::: {.fragment}
 
 [Schrijf gericht aan en met correcte aanspreking]{.alert2}
 
@@ -182,11 +182,17 @@ Tips voor goede communicatie aan de universiteit
 * [niet]{.alert}"*beste,*"
 * [niet]{.alert} "*Beste*"
 
-. . .
+:::
+
+::: {.fragment}
 
 [Identificeer jezelf duidelijk]{.alert2}
 
 * "Ik ben Jan Peeters en volg het vak ATW1"
+
+:::
+
+
 
 ## E-mail etiquette
 
@@ -420,6 +426,22 @@ Deze informatie is ook beschikbaar op Toledo in twee documenten
 1. praktisch.pdf
 2. zelfstudie.pdf
 
+
+## Studiebegeleidingssessies
+
+Er zijn twee sessies voorzien met studiebegeleider Hannelore Heylen
+
+* Week 6 van het semester: [fonetiek en fonologie]{.alert2}
+  * Di 28/10 11u-13u in VHI 01.64 
+  * Woe 29/10 14u-16 in MSI 01.28 
+  * Do 30/10 11u-13u in VHI 03.A040 
+* Week 11: [morfologie en syntaxis]{.alert2}
+  * Di 02/12 12u-14u in VHI 00.64 
+  * Woe 03/12 14u-16u in MSI 01.28 
+  * Do 04/12 11u-13u in VHI.03.A040 
+
+
+
 # Pauze
 
 # Tijd voor taalkunde
@@ -568,7 +590,7 @@ Taal = complex adaptief systeem van tekens
 ## Wat is taal? *signifié, signifiant, arbitrariness*
 
 
-![Famous diagram by structuralist Ferdinand de Saussure (1916)](inputfiles/saussuretree.jpg) 
+![Diagram bekend van de structuralist Ferdinand de Saussure (1916)](inputfiles/saussuretree.jpg) 
 
 
 ##	Wat is taal?
@@ -614,9 +636,7 @@ Taal = complex adaptief systeem van tekens
 
 ## Wat is menselijke taal?
 
-[Menselijke taal]{.alert2} tuusen [alle tekensystemen]{.alert}?
-
-[1. de mens]{.alert2} versus andere diersoorten
+[de mens]{.alert2} versus andere diersoorten
 
 :::: {.columns}
 
@@ -668,7 +688,7 @@ Drie verschillende klanken zonder betekenis:
 
 * [s, ɛ, t]
 
-Drie verschillende woorden met betekenis:
+Verschillende woorden met betekenis:
 
 * *\<ets>* [ɛts]
 * *\<set>* [sɛt]

@@ -1,0 +1,114 @@
+---
+title: "sankey"
+output: html_document
+date: "2025-09-24"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(ggsankey)
+library(readxl)
+```
+
+```{r}
+aug <- read_xlsx("/Users/Thomas/Dropbox/2_Areas/Teaching/2024_ATW1/punten_geteld_2024_augustus_ATW1.xlsx")
+jan <- read_xlsx("/Users/Thomas/Dropbox/2_Areas/Teaching/2024_ATW1/punten_geteld_2024_januari.xlsx")
+
+lijst <- read_xlsx("/Users/Thomas/Dropbox/2_Areas/Teaching/2024_ATW1/punten_2024_feb2025.xlsx")
+```
+
+
+```{r}
+lijst_wrangle <- lijst %>% 
+  rename(achternaam = 1, voornaam = 2) %>% 
+  select(achternaam, voornaam)
+
+jan_wrangle <- jan %>% 
+  select(achternaam, voornaam, totaal) %>% 
+  rename(jan = totaal) #%>% 
+  # mutate(jan = as.character(jan))
+
+aug_wrangle <- aug %>% 
+  select(achternaam, voornaam, totaal) %>% 
+  rename(aug = totaal) #%>% 
+  # mutate(aug = as.character(aug))
+
+
+prep_list <-
+  lijst_wrangle  %>% 
+  left_join(jan_wrangle) %>% 
+  left_join(aug_wrangle) %>% 
+  
+  mutate(
+    jan_2025 = case_when(
+      jan < 10 ~ "fail",
+      jan >= 10 ~ "pass",
+      .default = "NA"),
+    aug_2025 = case_when(
+      jan_2025 == "pass" ~ "pass",
+      aug >= 10 ~ "pass",
+      aug < 10 ~ "fail",
+      .default = "NA")      
+      )
+
+a <- prep_list %>% 
+  count(jan_2025) %>% 
+  janitor::adorn_percentages(denominator = "col") %>% 
+  janitor::adorn_pct_formatting() %>% 
+  unite(col = "jan_2025", 1:2, sep = " ")
+
+b <- prep_list %>% 
+  count(aug_2025) %>% 
+  janitor::adorn_percentages(denominator = "col") %>% 
+  janitor::adorn_pct_formatting() %>% 
+  unite(col = "aug_2025", 1:2, sep = " ")
+  
+
+percentages <-
+  bind_cols(a, b)  %>% 
+  make_long(jan_2025, aug_2025)
+  
+prep <-
+  prep_list %>% 
+  make_long(jan_2025, aug_2025) %>% 
+  mutate(labelnode = case_when(
+    x == "jan_2025" & node == "NA" ~ "NA 9.5 %",
+    x == "jan_2025" & node == "fail" ~ "FAIL 40.2 %",
+    x == "jan_2025" & node == "pass" ~ "PASS 50.3 %",
+    
+    x == "aug_2025" & node == "NA" ~ "NA 26.5 %",
+    x == "aug_2025" & node == "fail" ~ "FAIL 5.3 %",
+    x == "aug_2025" & node == "pass" ~ "PASS 68.3 %"
+  ))
+```
+
+```{r}
+ggplot(prep, aes(x = x, 
+               next_x = next_x, 
+               node = node, 
+               next_node = next_node,
+               fill = factor(node),
+               label = labelnode)) +
+  geom_sankey(flow.alpha = .6,
+              node.color = "gray30") +
+  geom_sankey_label(size = 3, color = "white", fill = "gray40") +
+  scale_fill_viridis_d(drop = FALSE) +
+  theme_sankey() +
+  # ggpubr::theme_pubclean() +
+  theme(legend.position = "none") +
+  labs(x = NULL, y = NULL, title = "ATWI slaagcijfers (2024-2025)")
+```
+
+
+
+
+
+
+
+
+
+
