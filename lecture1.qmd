@@ -20,7 +20,7 @@ author:
     # affiliation:
     #   - name: QLVL @ KU Leuven
         # url: www.ed.ac.uk
-date: "25 September 2025"
+date: "25 september 2025"
 logo: inputfiles/kul.png
 # bibliography: refs.bib
 # code-link: true
@@ -441,8 +441,11 @@ Er zijn twee sessies voorzien met studiebegeleider Hannelore Heylen
   * Do 04/12 11u-13u in VHI.03.A040 
 
 
-
 # Pauze
+
+## Lezing David Britain
+
+![](inputfiles/britain.png)
 
 # Tijd voor taalkunde
 
