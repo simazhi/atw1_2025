@@ -1,0 +1,554 @@
+---
+title: Algemene taalkunde I
+subtitle: Fonetiek — medeklinkers en klinkers
+format: 
+  kulqlvl-revealjs:
+    # self-contained: true
+    # chalkboard: true
+    slide-number: true
+    code-line-numbers: true
+    embed-resources: true
+    incremental: false
+    # multiplex: true
+# html-math-method:
+#   method: mathjax
+#   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Dr. Thomas Van Hoey
+    # orcid: 0000-0002-5226-9752
+    email: thomas.vanhoey@kuleuven.be
+    # affiliation:
+    #   - name: QLVL @ KU Leuven
+        # url: www.ed.ac.uk
+# date: "2 October 2025"
+logo: inputfiles/kul.png
+# bibliography: refs.bib
+# code-link: true
+# code-copy: true
+highlight-style: "github" # pygments, github
+# footer: Go to [osf.io/598fk](https://osf.io/598fk) for materials
+---
+
+# Fonetiek
+
+## Wat is fonetiek?
+
+[Fonetiek]{.alert} = de *objectieve* studie van [spraakklanken]{.alert2}
+
+Belangrijke onderdelen
+
+:::: {.columns}
+
+::: {.column}
+spraakorganen
+
+<br>
+articulatorische fonetiek
+
+<br>
+akoestische fonetiek
+
+<br>
+perceptuele fonetiek
+
+:::
+
+::: {.column}
+welke lichaamsdelen maken klanken?
+
+hoe worden die klanken geproduceerd?
+
+wat zijn de fysische kenmerken van klanken? trillingen in de lucht?
+
+waarneming van klanken door toehoorder
+
+:::
+
+::::
+
+
+
+## Speech chain communicatiemodel
+
+
+1. in de hersenen wordt een bepaalde gedachte gevormd
+1. de hersenen zenden signalen naar de spraakorganen
+1. spieren en organen in het spraakkanaal worden in beweging gezet
+1. als een gevolg hiervan ontstaan geluidsgolven
+1. deze akoestische signalen bereiken het oor van de toehoorder, die ze omzet in elektrosignalen
+1. deze elektrosignalen bereiken het brein van de toehoorder,
+1. waar ze worden ‘gedecodeerd’ als een waargenomen gedachte
+
+## Kunnen en kennen in dit vak
+
+
+articulatorische fonetiek
+
+* theorie: concepten en analysemethoden
+* toepassing: 
+  * IPA (International Phonetic Alphabet)
+  * herkennen, analyseren, transcriberen
+
+akoestische fonetiek
+
+* enkel theorie
+
+perceptuele fonetiek
+
+* vrijwel niet
+
+
+## Spraakorganen
+
+Drie onderdelen ~ drie functies:
+
+[1. Glottaal systeem]{.alert2} (strottenhoofd (larynx) met stembanden, glottis (stemspleet))
+
+Plaats waar [fonatie]{.alert} (periodieke trilling) gebeurt; stemkwaliteiten (bv. fluisteren, kraken etc.)
+
+
+
+[2. Subglottaal systeem]{.alert2} (longen, luchtpijp)
+
+Dit is de [energiebron]{.alert} die lucht in beweging zet.
+
+
+[3. Supraglottal systeem]{.alert2} (luchtpijp, mond- & neusholte)
+
+Modulatie van de luchtstroom voor [articulatie]{.alert}
+
+
+
+## Spraakorganen
+
+
+![McGregor 2024:30](inputfiles/phonetics_organs.png)
+
+## Mondholte
+
+![bron: https://commons.wikimedia.org/wiki/File:VocalTract_withNumbers.svg](inputfiles/fonetiek_mondholte.png)
+
+## Subglottaal systeem: energie
+
+Longen zetten lucht in beweging (*pulmonische luchtstroom*)
+
+* typisch bij talen: *egressief* (lucht → buiten)
+* zeldzaam: *ingressief* (lucht → binnen)
+
+Voorbeel van ingressieve luchtstroom met talig functie: interjecties in het Zweeds
+
+{{< video https://youtu.be/URgdIAz4QNg?si=WFmtI_2Gel6dHoT0 >}}
+
+## Glottaal systeem: fonatie
+
+Glottaal systeem
+
+* stottenhoofd (larynx)
+* bevat: stembanden (vocal folds)
+* vormen samen: stemspleet (glottis)
+
+
+![vocal folds (https://www.phon.ucl.ac.uk/courses/plin0065/week4.php)](inputfiles/vocal_folds.jpg)
+
+## Glottaal systeem
+
+Stembanden  kunnen  naar  elkaar  worden  toegebracht
+
+* van elkaar: lucht  kan  vrij  uitstromen → [stemloze  klanken]{.alert2}
+
+* naar  elkaar toe: lucht door stemspleet  geduwd  
+  → stembanden  gaan  periodiek open en  dicht 
+  → [aerodynamisch  principe]{.alert} ([Bernoulli-effect](https://youtu.be/y2PVKP5xRbM?si=um7V4V0cQ-XJWOl7))
+  → [stemhebbende  klanken]{.alert2}
+
+::: {.fragment}
+Stembanden in actie ({{<fa triangle-exclamation >}} waarschuwing grafisch)
+
+:::
+
+## Stembanden in actie
+
+{{< video https://youtu.be/9Tlpkdq8a8c?si=c76DU6CYLgoP-gYr >}}
+
+## Supraglottaal systeem
+
+[Mondholte]{.alert2}
+
+* kan worden vervormd met articulatoren
+* modificeert  luchtstroom
+
+[Neusholte]{.alert2}
+
+* zacht  gehemelte  kan  neusholte  afsluiten van mondholte
+* bepaalt of lucht (ook) via neusholte  uitstroomt
+
+## Supraglottaal systeem
+
+![bron: https://www.ling.upenn.edu/courses/Fall_2013/ling520/LectureNotes2.html](inputfiles/articulators1.png)
+
+## Supraglottaal systeem in actie
+
+{{< video https://youtu.be/C48XH0mE780?si=i5P2vmww-H1mkKN4 >}}
+
+
+# Articulatorische fonetiek
+
+## Articulatorisch
+
+Basisonderscheid tussen [klinkers]{.alert2} (vocalen) vs. [medeklinkers]{.alert2} (consonanten)
+
+# Medeklinkers
+
+## Medeklinkers
+
+Medeklinker = vernauwing of afsluiting van de mondholte
+
+::: {.fragment}
+Articulatorische parameters 
+
+:::
+
+::: {.fragment}
+[1. plaats]{.alert2} van articulatie <br> locatie van  afsluiting / vernauwing
+
+:::
+
+::: {.fragment}
+[2. wijze]{.alert2} van articulatie <br> manier van afsluiting / vernauwing
+
+:::
+
+::: {.fragment}
+[3. stemgeving]{.alert2} van articulatie <br> stembanden trillen of niet
+
+:::
+
+## Medeklinkers: plaats (place)
+
+*paard* vs. *kaart*
+
+locatie van vernauwing of afsluiting
+
+* terminologie: meestal "target" van de actieve articulator
+* herkenning *tips and tricks*  
+  * kijken: gebruik  spiegel  tijdens  articulatie
+  * voelen: articulatie aanhouden en  scherp  inademen (koude  lucht  bij  vernauwing / afsluiting)
+
+## Medeklinkers: plaats (place)
+
+![bron: https://www.ling.upenn.edu/courses/Fall_2013/ling520/LectureNotes2.html](inputfiles/articulators1.png)
+
+
+## Medeklinkers: plaats (place)
+
+Plaats van de (meestal) active articulator
+
+:::: {.columns}
+
+::: {.column}
+1. [bilabiaal](https://nl.wikipedia.org/wiki/Bilabiaal){target="_blank"}
+
+2. [labiodentaal](https://nl.wikipedia.org/wiki/Labiodentaal){target="_blank"}
+
+3. [dentaal](https://nl.wikipedia.org/wiki/Dentaal){target="_blank"}, <br> [alveolaar](https://nl.wikipedia.org/wiki/Alveolaar){target="_blank"}, <br> [postalveolaar](https://nl.wikipedia.org/wiki/Alveo-palataal){target="_blank"}
+
+4. [retroflex](https://nl.wikipedia.org/wiki/Retroflex){target="_blank"}
+
+:::
+
+::: {.column}
+5. [palataal](https://nl.wikipedia.org/wiki/Palataal){target="_blank"}
+
+6. [velaar](https://nl.wikipedia.org/wiki/Velaar){target="_blank"}
+
+7. [uvulaar](https://nl.wikipedia.org/wiki/Uvulaar){target="_blank"}
+
+8. [faryngaal](https://nl.wikipedia.org/wiki/Faryngaal){target="_blank"}
+
+9. [glottaal](https://nl.wikipedia.org/wiki/Glottaal){target="_blank"}
+
+:::
+
+::::
+
+
+
+
+
+## Medeklinkers: plaats (place)
+
+
+![IPA place](inputfiles/ipa_consonants.png)
+
+[🔈 IPA with sounds](https://www.ipachart.com/)
+
+
+## Medeklinkers: wijze (manner)
+
+*tap* vs. *sap* vs. *nap*
+
+manier  waarop  vernauwing of afsluiting  gebeurt
+
+* terminologie: aard van de luchtstroom
+* herkenning: tips & tricks
+  * kijken: gebruik  spiegel  bij  articulatie
+  * voelen: hand voor de mondholte  tijdens  articulatie
+
+## Medeklinkers: wijze (manner)
+
+[1. plosieven / occlusieven:]{.alert2} p, b, t, d ...
+
+* volledige  afsluiting  mondholte
+* opbouw  druk achter afsluiting
+* opheffen  afsluiting → plof
+  
+[2. fricatieven:]{.alert2}  f, v, θ, ð, s, z, ʃ, ʒ, ...
+vernauwing  mondholte
+
+* lucht  doorgeperst → frictie ( turbulentie )
+
+[3. affricaten:]{.alert2} tʃ, dʒ etc
+
+* lijkt op: plosief  gevolgd door fricatief
+* technisch: plosief met ‘ traag ’ opheffen  afsluiting
+
+
+## Medeklinkers: wijze (manner)
+
+[4. nasalen:]{.alert2} m, n, ...
+
+* volledige  afsluiting  mondholte
+* laten  zakken  zacht  gehemelte → lucht  stroomt  langs  neusholte  uit
+
+[5. lateralen:]{.alert2} l, ɬ, ɮ, ...
+
+* mondholte  afgesloten met tong
+* lucht  ontsnapt  aan  zijkant tong
+* met frictie (fricatief ) of zonder (approximant)
+
+## Medeklinkers: wijze (manner)
+
+
+[6. approximanten:]{.alert2} ɹ, ɻ, j, ɰ, ...
+
+* vernauwing van de mondholte
+* minder dan bij  fricatieven , lucht  stroomt  vrij  uit
+
+
+[7. rotische  klanken:]{.alert2}
+
+* trilklanken : ʙ, r, ʀ
+  * trilling actieve articulator bij target
+  * aerodynamisch  gestuurd ( vgl  stemgeving )
+* taps & flaps : ɾ, ɽ
+  * 1 kort contact met target
+  * verschil ~ traject van de tong
+
+## Medeklinkers: wijze (manner)
+
+![IPA place (https://upload.wikimedia.org/wikipedia/commons/8/8f/IPA_chart_2020.svg)](inputfiles/ipa_consonants.png)
+
+
+
+## Medeklinkers: stemgeving (voicing)
+
+*top* vs. *dop*
+
+Stembanden  trillen of niet
+
+ * herkenning: voelen  aan  strottenhoofd  tijdens  articulatie
+
+
+::: {.fragment}
+Nu zijn we klaar om alle pulmonische medeklinkers nog eens te overlopen.
+
+[Je kan gemakkelijk ook oefenen met wikipedia](https://en.wikipedia.org/wiki/Consonant)
+
+:::
+
+
+## Medeklinkers: stemgeving (voicing)
+
+![IPA place (https://upload.wikimedia.org/wikipedia/commons/8/8f/IPA_chart_2020.svg)](inputfiles/ipa_consonants.png)
+
+
+## MRI recordings
+
+Op de website van Seeing Speech, via [deze link](https://seeingspeech.ac.uk/ipa-charts/?chart=1) kan je ook nog MRI opnames bekijken, om te zien wat er juist gebeurt.
+
+
+
+
+## Andere vormen van luchtstroommechanismen: ejectieven
+
+Tot nu toe zagen we de pulmonische medeklinkers, waarbij de lucht door de longen (Lat. *pulmo*) in beweging wordt gebracht.
+
+Maar het kan ook via [het strottenhoofd (glottalisch)]{.alert}:
+
+[8. ejectieven]{.alert2}: p', t', k'...
+
+* strottenhoofd gaat omhoog → lucht wordt samengedrukt in mondholte
+
+
+
+## Andere vormen van luchtstroommechanismen: implosieven
+
+[9. implosieven]{.alert2}: ɓ, ɗ, ....	
+
+* strottenhoofd omlaag → onderdruk lucht in mondholte  gezogen (bv Maasai)
+
+## Andere vormen van luchtstroommechanismen: clicks
+
+[10. clicks:]{.alert2} velarisch  (vooral Zuidelijk Afrika)
+
+*  afsluiting twee plaatsen  mondholte
+* tong naar  beneden → onderdruk  ingesloten  lucht
+* opheffen  voorste  afsluiting → klikgeluid
+
+
+::: {.fragment}
+MRi van clicks via [deze link](https://seeingspeech.ac.uk/ipa-charts/?chart=2)
+
+:::
+
+## Ejectives, implosives, clicks in IPA
+
+![](inputfiles/ipa_click.png)
+
+
+
+## Andere vormen van luchtstroommechanismen: overzicht
+
+Demonstratie
+
+{{< video https://youtu.be/JKP10ARLnzM?si=iXN3RC7cQUg9l0ze&t=120 >}}
+
+
+# Klinkers
+
+## Klinkers
+
+Klinker = geen  vernauwing of afsluiting van de mondholte
+
+Bepalende factor = vorm van de mondholte:
+
+* vorm & positie van de [tong]{.alert2}
+* ronding van de [lippen]{.alert2}
+* toevoeging / afsluiting  [neusholte]{.alert2} (oraal vs nasal)
+*	[constant of verschuivend]{.alert2} ( monoftong vs diftong )
+
+## Klinkers
+
+Vorm & positie van de tong:
+
+* benadering = hoogste punt van de tong
+* maar geen contact → continuüm van tongposities , beschreven  adhv  twee dimensies
+  *  voor, centraal, achter
+  *  hoog, mid-hoog, mid-laag, laag
+* herkenning :
+  *  kijken : opening mondholte ( vgl . i vs a)
+  * voelen : vgl . plaats  articulatie  medeklinkers
+
+## Cardinal vowels
+
+:::: {.columns}
+
+::: {.column}
+praktische oplossing voor de "vowel space": [cardinal vowels]{.alert}  (Daniel Jones)
+
+
+:::
+
+::: {.column .fragment}
+![→ 4 referentiepunten](inputfiles/cardinal.jpg)
+
+
+:::
+
+::::
+
+
+## Cardinal vowels → alle klinkers
+
+Live demonstratie
+
+::: {.fragment}
+Ter referentie:
+
+{{< video https://youtu.be/xa5bG_wrK7s?si=q1DLWNB3LIKQp_Wb >}}
+
+:::
+
+## Vowel chart
+
+Op [wikipedia](https://en.wikipedia.org/wiki/IPA_vowel_chart_with_audio)
+
+::: {.fragment}
+![IPA vowels](inputfiles/ipa_vowels.png)
+
+:::
+
+## Diacritics in het IPA
+
+![IPA diacritics](inputfiles/ipa_diacritics.png)
+
+## IPA
+
+International Phonetic Alphabet ([IPA]{.alert2})
+
+Komt voort uit de vaststelling dat de ortografie van talen eigenlijk niet geschikt is om geluiden *redelijk* juist te vatten, bv. Nl. paar**d**, i**n**competent
+
+→ IPA als "standaard" referentiepunt voor de talen van de wereld, met vaste conventies
+
+* $\pm$ 100 symbolen
+* $\pm$ 50 diacritische tekens
+
+## IPA
+
+Oefen IPA op de website van de International Phonetic Association (helaas ook "IPA")
+
+[https://www.internationalphoneticassociation.org/IPAcharts/inter_chart_2018/IPA_2018.html](https://www.internationalphoneticassociation.org/IPAcharts/inter_chart_2018/IPA_2018.html)
+
+Maar gebruik ook zeker de aparte pagina's verzameld op Wikipedia
+
+[https://en.wikipedia.org/wiki/International_Phonetic_Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
+
+## Herhaling: wat te kennen van IPA
+
+* medeklinkers : alle  pulmonische  klanken (hoofdtabel)
+* klinkers : alle klinkers in de "klinkerdriehoek"
+
+Mogelijke opdrachten
+
+* herkennen  en  transcriberen ( isolatie & woorden )
+* analyseren  en  classificeren
+  * medeklinkers: plaats, wijze, stemgeving
+	* klinkers : voor /achter, open/ gesloten , ronding
+
+## Zelf oefenen
+
+* elektronische  hulpmiddelen met opnames & oefenmodules : zie Toledo
+
+* tips & tricks :
+	* zie  hierboven , plus
+	* contrastief  luisteren  bij ‘moeilijke’ klanken
+	* zelf  reproduceren  en  opnemen , of samenwerken
+	* probeer woorden te onthouden met een bepaalde klank
+	
+
+# Volgende week
+
+## Volgende week
+
+* Korte herhaling articulatorische fonetiek
+* Suprasegmentalen
+* Types of transcriptions
+* Perceptuele fonetiek
+* Akoestische fonetiek
+* Oefeningen
+
+**Te doen tegen volgende week:** <br>
+[Leer de medeklinkers en klinkers vanbuiten]{.alert2}
+
+
+
