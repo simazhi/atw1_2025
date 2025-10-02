@@ -1,0 +1,678 @@
+---
+title: Algemene taalkunde I
+subtitle: Fonetiek - akoestisch
+format: 
+  kulqlvl-revealjs:
+    # self-contained: true
+    # chalkboard: true
+    slide-number: true
+    code-line-numbers: true
+    embed-resources: true
+    incremental: false
+    # multiplex: true
+# html-math-method:
+#   method: mathjax
+#   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Dr. Thomas Van Hoey
+    # orcid: 0000-0002-5226-9752
+    email: thomas.vanhoey@kuleuven.be
+    # affiliation:
+    #   - name: QLVL @ KU Leuven
+        # url: www.ed.ac.uk
+# date: "2 October 2025"
+logo: inputfiles/kul.png
+# bibliography: refs.bib
+# code-link: true
+# code-copy: true
+highlight-style: "github" # pygments, github
+# footer: Go to [osf.io/598fk](https://osf.io/598fk) for materials
+---
+
+# Herhaling van vorige week
+
+## Pulmonische medeklinkers
+
+![IPA consonants](inputfiles/ipa_consonants.png)
+
+## Bijzondere medeklinkers
+
+![IPA non-pulmonic consonants](inputfiles/ipa_click.png)
+
+## Klinkers
+
+![IPA vowels](inputfiles/ipa_vowels.png)
+
+
+## Other symbols
+
+![IPA other symbols](inputfiles/ipa_other.png)
+
+
+## Diacritics
+
+![IPA diacritics](inputfiles/ipa_diacritics.png)
+
+
+
+## Cross-linguïstische frequentie? 
+
+:::: {.columns}
+
+::: {.column width="80%" .fragment}
+![(Styles & Gawne 2017 doi: 10.1177/2041669517724807)](inputfiles/styles_commonest_sounds.png){width=80%}
+
+
+:::
+
+::: {.column width="10%"}
+
+
+:::
+
+::::
+
+
+
+
+
+# Suprasegmentalen
+
+## Suprasegmentaal
+
+Suprasegmentaal = aspecten die boven de individuele klank uitstijgen
+
+1. klemtoon
+2. lengte
+3. prosodie / intonatie
+4. toonhoogte
+
+## Suprasegmentaal: klemtoon, lengte...
+
+![IPA suprasegmentals](inputfiles/ipa_supra.png)
+
+## Suprasegmentaal: klemtoon, lengte...
+
+Klemtoon (stress): prominentie van bepaalde lettergrepen
+
+* primair [ˈ]
+* secundair [ˌ]
+* geen klemtoon []
+
+## Suprasegmentaal: klemtoon, lengte...
+
+Lengte
+
+* heel lang (relatief) [ː]
+* beetje langer [ˑ]
+* heel kort [ ̆  ]
+
+bv. Nederlands <br> *\< mesje> / <meisje \>* <br> [mɛʃə] / [ˈmɛː.ʃə]
+
+Splitsen van lettergrepen [.]
+
+## Splitsen van prosodische units
+
+* korte splitsing [ | ]
+* lange splitsing [ ‖ ]
+
+
+Jack, <br>
+preparing the way, <br>
+went on.
+
+[ˈdʒæk | pɹəˌpɛəɹɪŋ ðə ˈweɪ | wɛnt ˈɒn ‖ ]
+
+## Upstep en downstep
+
+```{r}
+library(glossr)
+use_glossr()
+
+# my_gloss <- as_gloss(
+#   "她 哇的一聲 大 哭起來，",
+#   "tā wā=de-yì-shēng dà kū-qǐlái,",
+#   "TSG waa.IDEO-LINK-one-sound big cry-inch",
+#   translation = "Waaaaa, she began to wail.",
+#   label = "my-label",
+#   source = "ASBC (nº 100622)"
+# )
+
+
+gloss_jap_a <- as_gloss(
+  "gaɾeki-toka-ga **ꜛjɯ:k:ɯɾiꜛ** ko: ɯgoi-te i-te",
+  "debris-etc-NOM IDEO like.this move-CONJ be-CONJ",
+  translation = "things like debris moved *sloowly*",
+  source = "Japanese (Dingemanse & Akita 2017:11)"
+)
+
+gloss_jap_b <- as_gloss(
+  "soʃite mata **ꜜgagagagagagagaꜜ-to** ɕik-ɯ-no-ga",
+  "and again IDEO-QUOT draw-NPST-NMLZ-NOM",
+  translation = "and drew back *with a rattling sound*",
+  source = "Japanese (Dingemanse & Akita 2017:11)"
+)
+# 
+# gloss_jap_c <- as_gloss(
+#   "asa-made-ni ma: ni-san-kai-de kika-na-i-gɯɾai",
+#   "morning-until-DAT well 2-3-time-in suffice-NEG-NPST-degree"
+# )
+# 
+# gloss_jap_d <- as_gloss(
+#   "at-ta-n-ʒa-na-i-kana.",
+#   "be-PST-NMLZ-COP-NEG-NPST-SFP"
+# )
+
+gloss_jap_a
+gloss_jap_b
+# gloss_jap_c
+# gloss_jap_d
+```
+
+
+
+## Lexicale toonhoogte
+
+Toontalen
+
+[WALS chapter 13](https://wals.info/chapter/13){target="_blank"}
+
+
+
+## Lexicale toonhoogte: Chao systeem
+
+![5 niveaus van tonen](inputfiles/ipa_tone.png) 
+
+## Lexicale toonhoogte: Mandarijn vs. Kantonees
+
+:::: {.columns}
+
+::: {.column}
+Mandarijn
+
+1. mā [ma ˥] 媽
+2. má [ma ˧˥] 麻
+3. mǎ [ma ˨˩˧] 馬
+4. mà [ma ˦˩] 罵
+5. ma ("neutrale toon") 嗎
+
+:::
+
+::: {.column}
+Kantonees
+
+1. $si^1$ [siː ˥] 詩
+2. $si^2$ [siː ˧˥] 史
+3. $si^3$ [siː ˧] 試
+4. $si^4$ [siː ˨˩] 時
+5. $si^5$ [siː ˩˧] 市
+6. $si^6$ [siː ˨] 是
+7. $sik^{7|1}$ [sɪk̚ ˥] 識
+8. $sik^{8|3}$ [sɛk̚ ˧] 刺
+9. $sik^{9|6}$ [sik̚ ˨] 食
+:::
+
+::::
+
+
+
+
+## Broad en narrow transcriptie
+
+Fonetische transcriptie kan zo dicht mogelijk bij de echte uitspraak weergegeven worden ([narrow]{.alert2}) of eerder summier fonetisch ([broad]{.alert2})
+
+→ Doe je best om zo narrow mogelijk te transcriberen met de elementen die we tot nu toe gezien hebben.
+
+:::: {.columns}
+
+::: {.column}
+The farmer kissed the duckling. <br>
+[ðə ˈfɑːmə ˈkɪst ðə ˈdʌklɪŋ]
+
+BROAD
+
+:::
+
+::: {.column}
+The farmer kissed the duckling. <br>
+[ðə ˈfãːmə ˈk̟ʰɪst̚ ðə ˈdʌkl̴ɪ̃ŋ̟]
+
+NARROW
+
+:::
+
+::::
+
+
+# Enkele oefeningen
+
+## Transcribeer in IPA
+
+:::: {.columns}
+
+::: {.column}
+1. ontploffing
+2. pannenkoek
+3. angstschreeuw
+4. loopbaan
+5. variable
+6. ssssjjj! ("stilte!")
+
+:::
+
+::: {.column .incremental}
+1. [ɔnt'plɔfıŋ] (of [ɔm'plɔfıŋ])
+2. ['pɑnəkuk]
+3. ['ɑŋstsxreːw]
+4. ['loːbaːn]
+5. [vaːri'jaːbəl] of [vɑri'jaːbəl] of [vɑr'jaːbəl]
+6. [ʃː]
+
+:::
+
+::::
+
+## Transcribeer de volgende audiofragmenten
+
+:::: {.columns}
+
+::: {.column}
+1. ![](inputfiles/pronunciation_trv_seediq.mp3)
+2.  ![](inputfiles/pronunciation_nl_wiegje.mp3)
+3.  ![](inputfiles/pronunciation_sc_cherveddu.mp3)
+4.  ![](inputfiles/pronunciation_kl_illu.mp3)
+5.  ![](inputfiles/pronunciation_ja_fuhai.mp3)
+6.  ![](inputfiles/pronunciation_nl_geluid.mp3)
+
+:::
+
+::: {.column .incremental}
+1. [ˈseˈʔediq] (Seediq *seediq*)
+2. [ˈʋiçjə] (NL Nederlands *wiegje*)
+3. [kɛɾˈvɛɖːu] (Sardinisch *cherveddu*)
+4. [iɬɬu] (Groenlands / Kalaalissut *illu*)
+5. [ɸɯhai] (Japans *fuhai*)
+6. [ɣəˈlœyt] (NL Nederlands *geluid*)
+
+:::
+
+::::
+
+
+
+
+
+
+# Perceptuele fonetiek
+
+## McGurk effect (Harry McGurk)
+
+:::: {.columns}
+
+::: {.column}
+{{< video https://youtu.be/jtsfidRq2tw?si=bAVw0MuBnyrZmaqH&t=2 >}}
+
+:::
+
+::: {.column}
+{{< video https://youtu.be/2k8fHR9jKVM?si=xfNWBgMi_a7wHuHR >}}
+
+:::
+
+::::
+
+## Visuele perceptie 
+
+{{< video  https://youtu.be/vJG698U2Mvo?si=Mnyz7N5LW6pDB2yU >}}
+
+
+# Akoestische fonetiek
+
+## Akoestische fonetiek
+
+Geluid = trillingen van lucht <br>
+→ minimale veranderingen luchtdruk, opgevangen door menselijk oor <br>
+→ [geluidsgolven](https://www.acs.psu.edu/drussell/Demos/waves-intro/waves-intro.html){target="_blank"}
+
+::: {.fragment}
+![Bron: Daniel Russell](https://www.acs.psu.edu/drussell/Demos/waves-intro/peoplewave.gif)
+:::
+
+::: {.fragment}
+![Bron: Daniel Russell](https://www.acs.psu.edu/drussell/Demos/waves-intro/wavepulse.gif)
+:::
+
+## Trillingen beschrijven
+
+[1. amplitude]{.alert2}
+
+* grootte van de trilling
+* waargenomen als luidheid
+* uitgedrukt in decibel (dB)
+* hoe meer dB hoe luider
+
+::: {.fragment}
+[2. frequentie]{.alert2}
+
+* aantal trillingen / tijdseenheid
+* waargenomen als toonhoogte
+* uitgedrukt in hertz (Hz)
+* hoe meer Hz hoe hoger
+
+:::
+
+## Trillingen en golven
+
+De trillingen volgen een longitudinale golf (sinusgolf)
+
+![Bron: Daniel Russell](https://www.acs.psu.edu/drussell/Demos/waves-intro/Lwave-Red-2.gif)
+
+## Geluidsgolven: sinusgolf
+
+![Bron: https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/acoustic.html](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/sine1.png)
+
+## Geluidsgolven: amplitude
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/amplitude.png)
+
+## Geluidsgolven: amplitude en frequentie
+
+:::: {.columns}
+
+::: {.column}
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/aa.png)
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/ba.png)
+:::
+
+::: {.column}
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/ab.png)
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/bb.png)
+:::
+
+::::
+
+## Menselijke spraak = complexe golven
+
+De geluidsgolven van menselijke spraak zijn complexe golven
+
+![Soundwave "taalkunde" met Praat](inputfiles/praat_taalkunde_soundwave.png)
+
+
+## Analyse van complexe golven met Fourier-analyse
+
+
+![](inputfiles/vibecheck.webp)
+
+
+
+## Analyse van complexe golven met Fourier-analyse
+
+
+[Fourier-analyse]{.alert2}: complexe golven = optelsom van enkelvoudige golven
+
+Deze complexe golf bestaat eigenlijk uit drie golven
+
+![Bron: https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/acoustic.html](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/bigwave.png)
+
+
+
+
+## Analyse van complexe golven met Fourier-analyse
+
+:::: {.columns}
+
+::: {.column}
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/wave1a.png)
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/wave2a.png)
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/wave3a.png)
+
+:::
+
+::: {.column .fragment}
+Dit kan samengevat worden als:
+
+golf | frequentie | amplitude
+-----|------------|--------
+rood  |   100 Hz  | 30 dB
+blauw |   200 Hz  | 10 dB
+groen |  300 Hz   | 20 dB
+
+:::
+
+::::
+
+
+
+
+
+## Analyse van complexe golven met Fourier-analyse
+
+
+
+## Analyse van complexe golven met Fourier-analyse
+
+Samengevat in een [spectrumdiagram]{.alert} of [amplitudespecrum]{.alert}: <br>
+x-as toont frequentie, y-as toont amplitude
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/spectrum1.png)
+
+## Spectrogram
+
+Spectrumdiagrammen tonen complexe golven op een heel kort stukje tijd.
+
+Maar wanneer je spreekt veranderen de geluiden (= golven) constant.
+
+Om dat weer te geven gebruiken we een [spectrogram]{.alert2}.
+
+→ x-as: tijd (s) <br>
+→ y-as: frequentie (Hz) <br>
+→ intensiteit kleur: amplitude (dB)
+
+## Spectrogram
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/hislice.png)
+
+
+:::: {.columns .fragment}
+
+::: {.column}
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/hi1.png)
+
+
+:::
+
+::: {.column}
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/hi2.png)
+
+
+:::
+
+::::
+
+## Spectrogram van "taalkunde"
+
+!["taalkunde" spectrogram](inputfiles/praat_taalkunde_spectrogram1.png)
+
+
+## Harmonischen, grondtoon, boventonen
+
+Herinner je: een complexe golf bestaat uit verschillende golven ("harmonischen")
+
+* golf met de laagste frequentie de [grondtoon]{.alert2} of [fundamentele frequentie]{.alert2}
+* andere golven zijn de [boventonen]{.alert2}, ook wel [formanten]{.alert2} genoemd
+
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/spectrum1.png)
+
+## Formanten
+
+Stel: we willen schwa [ə] onderzoeken.
+
+Bepaalde harmonischen vallen op als pieken.
+
+Dit zijn de [formanten]{.alert2} van [ə] 
+
+![](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/img/schwspec.png)
+
+## Smalband - breedband
+
+Twee types spectrogrammen
+
+* smalband: resolutie frequentie goed, tijd slecht
+* breedband: resolutie tijd goed, frequentie slecht
+
+(Smalband kom je eigenlijk zelden tegen *in the wild*)
+
+## Informatie in een spectrogram
+
+[1. F0 - fundamentele frequentie]{.alert2} <br>
+→ basisfrequentie harmonischen <br>
+→ intonatie
+
+![F0 "taalkunde"](inputfiles/praat_taalkunde_f0.png)
+
+## Informatie in een spectrogram
+
+[2. formanten (F1, F2, F3...)]{.alert2} <br>
+→ vorm van de mondholte <br>
+→ aard van klinkers en (sommige) medeklinkers
+
+![F1, F2, F3... "taalkunde"](inputfiles/praat_taalkunde_formanten.png)
+
+## Informatie in een spectrogram
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+# the tidyverse, we will always load this
+library(tidyverse)
+library(here)
+
+df <-
+  tibble::tribble(
+  ~Vowel, ~`[i]`, ~`[ɪ]`, ~`[e]`, ~`[ɛ]`, ~`[æ]`, ~`[ɑ]`, ~`[ɔ]`, ~`[o]`, ~`[ʊ]`, ~`[u]`, ~`[ʌ]`,
+    "F1",   280L,   370L,   405L,   600L,   860L,   830L,   560L,   430L,   400L,   330L,   680L,
+    "F2",  2230L,  2090L,  2080L,  1930L,  1550L,  1170L,   820L,   980L,  1100L,  1260L,  1310L
+  ) %>% 
+  pivot_longer(cols = 2:12, names_to = "vowel", values_to = "formant") %>% 
+  pivot_wider(names_from = "Vowel", values_from = formant) 
+
+
+```
+
+
+
+:::: {.columns}
+
+::: {.column}
+F1 en F2 zijn de belangrijkste formanten voor klinkers.
+
+Bv. voor [Canadees Engelse klinkers](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/formants.html) hebben ze deze waarden. 
+
+:::
+
+::: {.column}
+```{r}
+kableExtra::kable(df)
+```
+
+
+:::
+
+::::
+
+
+
+
+## Informatie in een spectrogram
+
+```{r}
+df %>% 
+  ggplot(aes(F2, F1)) +
+  geom_text(aes(label = vowel)) +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  ggpubr::theme_classic2()
+```
+
+## Informatie in een spectrogram
+
+```{r}
+df2 <- 
+  read_csv(here::here("inputfiles", "Phonology_test.csv")) %>% 
+  filter(subj != "Rosa") %>% 
+  # filter(subj != "Greg" & vowel != "ʌ") %>% 
+  select(vowel, F1 = f1, F2 = f2) 
+
+bind_rows(df, df2) %>% 
+  mutate(vowel = str_remove_all(vowel, "\\[|\\]")) %>% 
+  ggplot(aes(F2, F1)) +
+  geom_text(aes(label = vowel)) +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  ggpubr::theme_classic2()  
+```
+
+## Informatie in een spectrogram
+
+```{r}
+bind_rows(df, df2) %>% 
+  mutate(vowel = str_remove_all(vowel, "\\[|\\]")) %>% 
+  ggplot(aes(F2, F1)) +
+  geom_text(aes(label = vowel)) +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  ggpubr::theme_classic2() +
+  annotate("segment", x = 2610, xend = 900, y = 300, yend = 250, color = "blue", linewidth = 2) +
+  annotate("segment", x = 2600, xend = 1600, y = 300, yend = 850, color = "blue", linewidth = 2) +
+  annotate("segment", x = 1600, xend = 800, y = 850, yend = 800, color = "blue", linewidth = 2) +
+  annotate("segment", x = 900, xend = 800, y = 250, yend = 800, color = "blue", linewidth = 2) +
+  annotate("segment", x = 2050, xend = 830, y = 600, yend = 600, color = "blue", linewidth = 2) +
+  annotate("segment", x = 2320, xend = 850, y = 450, yend = 500, color = "blue", linewidth = 2) 
+```
+
+## Nog eens lezen?
+
+Spectrogrammen  stap  voor  stap
+
+Kevin Russell’s acoustic phonetics
+
+[Kevin Russell’s acoustic phonetics](https://home.cc.umanitoba.ca/~krussll/phonetics/acoustic/acoustic.html)
+
+## Meer?
+
+Zelf experimenteren?
+
+:::: {.columns}
+
+::: {.column}
+softwarepakket Praat
+
+[https://www.fon.hum.uva.nl/praat/](https://www.fon.hum.uva.nl/praat/)
+
+
+:::
+
+::: {.column}
+![Praat logo](inputfiles/praat_old_new.png)
+
+:::
+
+::::
+
+# Volgende week
+
+## (Tegen) volgende week
+
+* Enkele oefeningen fonetiek
+* Fonologie
+* Print de oefeningen van fonologie
+
+
+
+
