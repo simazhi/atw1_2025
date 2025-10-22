@@ -48,12 +48,13 @@ andere klanken zijn vaak moeilijk aan te leren (bv. in L2, L3-taalverwerving).
 
 ## Met andere woorden
 
-"Phonetics gathers raw material, while phonemics cooks it." - Kenneth Pike (1947:57)
+> Phonetics gathers raw material, while phonemics cooks it."
+> 
+> Kenneth Pike (1947:57)
 
 
 # Fonologie
 
-Deel 2
 
 
 ## Gooniyandi nasale velaren
@@ -177,7 +178,7 @@ omgeving, ipv een opsomming van conditionerende klanken te geven.
 Voorbeelden
 
 * binair: $[\pm stem], [\pm hoog], [\pm laag], [\pm nasaal], ...$
-* plaats: [bilabiaal], [dentaal], [alveolair], ...
+* plaats: [labiaal], [palataal], [alveolair], ...
 
 ## Wanneer verwijs je bij het oplossen naar kenmerken?
 
@@ -236,17 +237,32 @@ Idee: verschillende niveaus in suprasegmentele (prosodische) analysie in de fono
 
 ## Mora
 
+::: columns
+::: {.column width="60%"}
 Voorbeeld:
 
-NL. *pokémon* [po.kɛ.mon] < *pocket monster* [po.kɛt.mon.stər] 
+NL. *pokémon* [po.kɛ.mon] 
+<br> \< *pocket monster* [po.kɛt.mon.stər] 
 <br> (bewust Nederlandse uitspraak)
 
 ::: {.fragment}
-Jap. [po.ke.mo.n] (4 morae) < [po.ke.t.to.mo.n.sɯ.ta.a] (9 morae)
+Jap. [po.ke.mo.n] (4 morae) 
+<br> \< [po.ke.t.to.mo.n.sɯ.ta.a] (9 morae)
 <br>uit zich ook in schriftbeeld:
 <br> ポケモン <　ポケットモンスター
 
 :::
+
+:::
+
+::: {.column width="40%"}
+![](inputfiles/pokemon.png)
+
+:::
+:::
+
+
+
 
 ## Wat is een haiku?
 
@@ -366,6 +382,11 @@ Andere talen hebben een fonemische klemtoon
 vrouwennaam)' 
 
 :::
+
+## Lettergreep - klemtoon
+
+![](inputfiles/douleia.png)
+
 
 ## Lettergreep
 
