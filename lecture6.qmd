@@ -1,0 +1,593 @@
+---
+title: Algemene taalkunde I
+subtitle: Fonologie (3) en morfologie (1)
+format: 
+  kulqlvl-revealjs:
+    # self-contained: true
+    # chalkboard: true
+    slide-number: true
+    code-line-numbers: true
+    embed-resources: true
+    incremental: false
+    # multiplex: true
+# html-math-method:
+#   method: mathjax
+#   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Dr. Thomas Van Hoey
+    # orcid: 0000-0002-5226-9752
+    email: thomas.vanhoey@kuleuven.be
+    # affiliation:
+    #   - name: QLVL @ KU Leuven
+        # url: www.ed.ac.uk
+# date: "2 October 2025"
+logo: inputfiles/kul.png
+# bibliography: refs.bib
+# code-link: true
+# code-copy: true
+highlight-style: "github" # pygments, github
+# footer: Go to [osf.io/598fk](https://osf.io/598fk) for materials
+---
+
+# Herhaling van vorige week
+
+## Stappenplan fonologische status
+
+::: columns
+::: {.column width="80%"}
+
+```{mermaid}
+flowchart TD
+    A[Stap 1. verdachte paren - lees de opgave] --> B[Stap 2. minimale paren?]
+    B -->|ja| C(/X/ en /Y/ zijn fonemen)
+    B -->|nee| D[Stap 3. bijna-minimale paren?]
+    D -->|ja| E(/X/ en /Y/ zijn fonemen)
+    D -->|nee| F[Stap 4. Allofonie, welke soort?]
+    F -->|zelfde distributie| G(allofonen in vrije variatie)
+    F -->|verschil in distributie| H(allofonen in complementaire distributie)
+    H --> I[Stap 5. Regel?]
+```
+
+:::
+
+::: {.column width="20%"}
+
+
+:::
+:::
+
+
+
+## Oefeningen
+
+Fonologie
+
+* Hebreeuws
+* Inuktitut
+* Maleis (beginnen)
+
+Fonetiek
+
+* enkele klankfragmenten
+
+Huiswerk
+
+* Bereid Palauaans tegen volgende week voor.
+* Stel vragen over hoofdstukken 7-11 tegen 4 november via toledo
+
+## Fonetiek
+
+
+:::: {.columns}
+
+::: {.column}
+
+1. ![](inputfiles/pronunciation_en_samhain.mp3)
+2. ![](inputfiles/pronunciation_fr_bonbon.mp3)
+3. ![](inputfiles/pronunciation_km_ឈាម.mp3)
+4. ![](inputfiles/pronunciation_mn_аалз.mp3)
+5. ![](inputfiles/pronunciation_zh_女巫.mp3)
+
+:::
+
+::: {.column .incremental}
+
+1. Engels [*samhain*](https://en.wiktionary.org/wiki/Samhain) [ˈsaʊ.(w)ɪn] of [ˈsa(ʊ).wən] 'Halloween'
+2. Frans [*bonbon*](https://en.wiktionary.org/wiki/bonbon#Pronunciation_4) [bɔ̃.bɔ̃] 'snoep'
+3. Khmer [*ឈាម*](https://en.wiktionary.org/wiki/%E1%9E%88%E1%9E%B6%E1%9E%98) [cʰiəm] 'bloed'
+4. Mongools [*аалз*](https://en.wiktionary.org/wiki/%D0%B0%D0%B0%D0%BB%D0%B7) [aːɮt͡s] 'spin'
+5. Mandarin [女巫](https://en.wiktionary.org/wiki/%E5%A5%B3%E5%B7%AB) [ny.wu] 'heks'
+:::
+
+::::
+
+## Fonetiek
+
+
+:::: {.columns}
+
+::: {.column}
+
+1. ![](inputfiles/backopeno.mp3)
+2. ![](inputfiles/q.mp3)
+3. ![](inputfiles/f.mp3)
+4. ![](inputfiles/y.mp3)
+5. ![](inputfiles/ll.mp3)
+6. ![](inputfiles/pronunciation_nl_zakdoek.mp3)
+
+:::
+
+::: {.column .incremental}
+
+1. ɔ
+2. q
+3. f
+4. y
+5. ʎ
+6. [ˈzɑɡduk]
+:::
+
+::::
+
+
+
+# Fonologische veranderingen
+
+## Klankveranderingen
+
+Vorige week zijn we geëindigd met de evolutie van $/sk/ > /ʃ/$ in het Engels
+<br> zie je in doubletten
+<br> *skirt/shirt*, *ship/skipper*, *dish/disk*, *shabby/scab*, *shatter/scatter*, *shoot/scoot*, *shell/skull*, *shrub/scrub*
+
+→ Taalverandering op klankniveau 
+
+* Toevoegingen en weglatingen
+* Assimilatie/dissimilatie
+* Plaatsverwisseling
+* ...
+
+## Toevoegingen en weglatingen
+
+Plaats: waar in de lettergreep gebeurt de verandering?
+
+
+|           | *Anlaut* (aanzet)   |  *Inlaut* (nucleus)    |   *Auslaut* (coda)
+------------|----------------------|-----------------------|-------------
+toevoeging  | [prothesis]{.alert2} |   [epenthesis]{.alert2}  |  [paragoge]{.alert2}
+|           |   *onkel > nonkel*   |   *hoenders* (/d/)     |   Fr. *faisan* > Nl. *fazant*
+weglating   | [procope]{.alert2}/aphaeresis | [syncope]{.alert2} | [apocope]{.alert2}
+|           | *Adolf > Dolf*       |  *leder > leer*     |   *gift > gif*
+
+::: {.fragment}
+Speciaal geval: [haplologie]{.alert2}
+<br> bv. *narcicisme > narcisme*
+
+:::
+
+
+## Assimilatie/dissimilatie
+
+Wisselwerking tussen allofonen en fonemen [("fonologizatie")]{.alert2}, voorbeeld uit het West-Germaans (*vallen* vs. *vellen*)
+
+|             | "vallen"    | "doen vallen" (causatief)
+|-------------|-------------|---------------
+oorspronkelijk |   \*fall-an   |    \*fall-jan
+tussenstadium: allofonie |   \*fall-an  | \*fæll-jan, \*fall-jan
+eindstadium: fonologizatie |   \*fall-an   | \*fæll-an
+
+::: {.fragment}
+Oorspronkelijk causatief morfeem *-jan* /jan/ waarin aanzet /j-/ een palataliserende assimilatie uitoefent op voorgaande lettergreep
+
+$/a/ \to [æ] \, / \, \_\_\{[+voor], [+palataal]\}$
+
+Wanneer conditie verdwijnt blijft het effect van die palatalisatie wel in een "umlaut"-stamverandering.
+
+:::
+
+## Assimilatie/dissimilatie
+
+[Assimilatie]{.alert}: klank neemt kenmerken over van klanken in zijn omgeving
+
+[Regressieve assimilatie]{.alert2}: beïnvloede klank gaat vooraf aan beïnvloedende klank
+
+* i/j-umlaut bv. *fallan/faljan > vallen/vellen*, *stad/steden*, *lang/verlengen*, *tam/temmen*
+
+[Progressieve assimiliate]{.alert2}: beïnvloedende klank gaat vooraf aan beïnvloede klank
+
+* \<afzeggen\> [ˈɑfsɛɣə(n)] (of [ˈɑvzɛɣə(n)])
+
+Wanneer dit over een woordgrens gebeurt, spreekt men ook wel van [sandhi]{.alert2}
+
+* \<ik zet\> [ɪk.ˈsɛt] (of [ɪg.ˈzɛt])
+
+## Assimilatie/dissimilatie
+
+[Dissimilatie]{.alert}: klanken in elkaars omgeving gaan steeds minder op elkaar lijken
+
+* Lat. *peregrinus* 'pelgrim' > Nl. [pɛlgrim]  (let op /r/ en /l/)
+* Fr. *marbre* vs. Eng. *marble* [mɑɹ.bəl]
+
+## Plaatsverwisseling
+
+[Metathesis]{.alert}: twee klanken die van plaats verwisselen
+
+* *wesp/weps*, *hesp/heps*
+* *pranile/praline*
+* *drie/derde*
+* *vriezen/vorst*
+
+De laatste twee hebben te maken met een regel de ontwikkeling van het Nederlands 
+<br> zie bv. Duits *Brust*, Engels *frost*, waar dit niet gebeurde
+
+Oud-Nederlands $/r\,\,V_{kort}\,\,C_{dentaal}/ > /V_{kort}\,\,r \,\,C_{dentaal}/$
+
+## Enkele andere termen
+
+[Monoftongering / diftongering]{.alert}
+<br> *huis* /ɦœys/ vs. /ɦœs/ < MNl. /hu:s/
+
+[Ronding / [ontronding]{.alert} ([zie hier](https://nl.wikipedia.org/wiki/Ontronding)){target="_blank"}
+<br> /zeven/ vs. /zøven/
+
+[Verdoffing]{.alert} 
+<br> ONl. *makon* > *maken*, *hebban* > *hebben*
+
+[Rotacisme]{.alert}
+<br> *vrozen* > *vroren*; *bevrozen* (dial.) vs. *bevroren* (stand.)
+
+
+## Fonologische wetten
+
+In de ontwikkeling van de taalkunde heeft de zoektocht naar klankwetten zonder uitzondering ("Ausnahmslosigkeit der Lautgesetze") een belangrijke rol gespeeld.
+
+Voornamelijk in de Germaanse pre-structuralistische traditie
+
+Namen:
+
+* Jakob Grimm (ja, van de gebroeders Grimm met de sprookjes) → "Wet van Grimm" in 1822
+* Rasmus Rask → ontdekte de Wet van Grimm eigenlijk eerder in 1811
+* Karl Verner → "Wet van Verner" in 1875
+
+## Fonologische wetten - Wet van Grimm
+
+Doel: Oer-Germaans (OGM) medeklinkers modelleren
+
+Proto-Indo-Europees (PIE) > Latijn vs. PIE > Gotisch
+<br> (Latijn staat hier voor de PIE versie)
+<br> ["cognates"]{.alert2}
+
+PIE |  Latijn  | Gotisch (Germaans)
+----------------------------|----------|-------
+\*b  |  *turba* [turba] 'troep' | *þaurp* [θɔrp] 'veld'
+\*d  |  *decem* [dɛkɛm] 'tien'  | *taihun* [tɛχun] 'tien'
+\*g  |  *iugum* [jugum] 'juk'   | *juk*   [juk]  'juk'
+
+<br>
+
+1. $PIE \, [-stem, +occlusief] > OGM [-stem, +fricatief]$
+
+2. $PIE \, [-aspiratie, +stem, +occlusief] > OGM [-stem, +occlusief]$
+
+
+## Fonologische wetten - Wet van Grimm
+
+PIE > Sanskriet vs. PIE > Gotisch
+
+PIE  |  Sanskriet  | Gotisch (Germaans)
+-----|-------------|-----------
+\*bh  |*bharāmi* [bʰaraːmi] 'ik draag'     | *bairan* [bɛrɑn] 'dragen'
+\*dh  |*vidhavā* [vidʰavaː] 'weduwe'       | *widuwo* [wɪðuwo] 'weduwe'
+\*gh  |*stighnōti* [stigʰnoːti] 'stijgt'   | *steigen*   [stiɣɑn]  'stijgen'
+
+<br>
+<br>
+
+3. $PIE \, [+aspir, +stem, +occlusief] > OGM \begin{cases} [+stem, +occlusief]  \\ of \\ [+stem, +fricatief]\end{cases}$
+
+
+
+## Fonologische wetten - Wet van Grimm
+
+Er zijn echter nog twee uitzonderingen. De eerste:
+
+PIE |  Latijn  | Gotisch (Germaans)
+----------------------------|----------|-------
+\*sp  |  *spuo* 'spuwen' | *speiwan*  'spuwen'
+\*st  |  *stare*  'staan'  | *standan* 'staan'
+\*sk  |  *piscis*  'vis'   | *fisks*   'vis'
+\*kt  |  *octo*  'acht'    |  *ahtau* [aχtɔː] 'acht'
+
+<br>
+<br>
+
+4. $PIE \, [-stem, +occl.] > OGM \, [-stem, +occl.] \, / \, [-stem, +fric.]\_\_$
+
+## Fonologische wetten - Wet van Verner
+
+De tweede uitzondering: 
+<br> /p,t,k/ wordt soms stemloze fricatief, soms stemhebbende fricatief 
+<br> bv. Lat. *frater* vs. Got. [bro.θar]
+<br> bv. Lat. *pater* vs. Got. [faðar]
+
+Als dit een bijna-minimaal paar is, waarom zijn er dan twee OGM reflexen?
+
+Oplossing: woordaccent speelt een rol
+
+## Fonologische wetten - Wet van Verner
+
+|      |  accent ultimate | accent ultimate | accent penultimate | accent penultimate
+-------|------------------|-----------------|--------------------|-----------------
+NL     | vader            |  zeven          |     broeder        |   vee
+GOT    | [faˈðar]        |  [siˈvun]      |     [ˈbroθar]     |   [ˈfɛχu]
+SANSK  | [piˈtaː]        |  [sapˈta]       |     [ˈbʰraːtaːr]  |  [ˈpaʃu]
+LAT    |  [paˈtɛr]       |   [sɛpˈtɛm]    |    [ˈfratɛr]      | [ˈpɛku]
+PIE    |  \*pəˈter       |    \*sepˈtm̥         |   \*ˈbhrater | \*ˈpeku
+
+$$PIE \, [-stem, +occl] > OGM
+\begin{cases} 
+[+stem, +fric] & / & accent \, op \, volgende \\ 
+[-stem, +occl] & / & [-stem, +fric]\_\_ \\
+([-stem, +fric] & / & \#\_\_ ) \\ 
+[-stem, +fric] & / & elsewhere
+\end{cases}
+$$
+
+## Oftewel
+
+```{mermaid}
+flowchart TD
+    Z(PIE bh dh gh) --> K(OGM v ð ɣ)
+    Y(PIE p t k) --> |Wet van Verner| K
+    Y --> L(OGM f θ χ)
+    X(PIE b d g) -->  M(OGM p t k)
+    Y --> |na stemloze fricatief| M
+```
+
+Hier zien we oorspronkele fonemen uiteengevallen zijn in meerdere fonemen ([splits]{.alert2}), maar ook dat een aantal fonemen versmolten zijn ([mergers]{.alert2}).
+
+
+
+<!-- ## Splits en mergers -->
+
+<!-- [splits]{.alert2} en [mergers]{.alert2} -->
+
+
+<!-- |             | Latijn   | Gotisch -->
+<!-- |-------------|-------------|--------------- -->
+<!-- Indo-Europees /o/ |  *hostis* 'vijand' | *gasts* 'gast -->
+<!-- |         |    *octo* 'acht'      | *ahtau*  'acht' -->
+<!-- |         |    *portare* 'dragen'      | *faran*  'trekken, reizen' -->
+<!-- Indo-Europees /a/ |  *ager* 'akker' | *akrs* 'akker' -->
+<!-- |         |    *ad* 'naar'      | *at*  'naar' -->
+<!-- |         |    *sallo* 'zout'      | *salt*  'zout' -->
+
+
+<!-- $$ -->
+<!-- [-stem, +occlusief] \to  -->
+<!-- \begin{cases} -->
+<!-- [-stem, +occlusief] & / & [-stem, +fricatief]\_\_ \\ -->
+<!-- [+stem, +fricatief] & / & Verner\,(accent) \\ -->
+<!-- [-stem, +fricatief] & / & elsewhere \\ -->
+<!-- \end{cases} -->
+<!-- $$ -->
+
+
+# Oefeningen (en pauze)
+
+
+
+# Morfologie
+
+<!-- Basisprincipes -->
+
+<!-- 1. Aspecten van vorm -->
+
+<!-- 2. Aspecten van betekenis -->
+
+<!-- 3. Morfologische  relaties -->
+
+
+
+
+
+## Voorbeelden
+
+Daarnet zagen we al Gotisch *\*fall-jan*
+
+→ 'doen vallen', bestaat uit een deeltje dat 'vallen' betekent, en een deeltje dat het causatieve uitdrukt 
+<br> (vgl. *cause someone to fall*)
+
+
+
+## Morfologie
+
+* fonologie (fonemen, syllaben  etc.) bestaat uit elementen die geen  betekenis  hebben maar wel een  functie (nl. klanken die een distinctief verschil met zich meebrengen in een taalsysteem)
+* morfologie bestaat uit [morfemen]{.alert2} uit elementen die wel betekenis hebben
+<br> NL [*deur-en*]{.ex}
+
+::: {.fragment}
+→ [morfeem]{.alert2} = kleinste  eenheid van vorm & betekenis
+
+:::
+
+::: {.fragment}
+→ [morfologie]{.alert2} = studie van structuur van woorden en woorddelen
+
+:::
+
+
+# Basisprincipes
+
+
+## Woorden vs. morfemen
+
+Kleinste  vrije  eenheid van vorm  en  betekenis
+
+Criteria  voor  vrije status? 
+
+Niet  vanzelfsprekend:
+
+* talen met schriftsysteem: ( soms ) in orthografie  gereflecteerd (op zich  resultaat  analyse )
+* minder goed  beschreven  talen: expliciete  analyse  nodig
+
+## Woorden vs. morfemen
+
+Link met woorden? 
+
+bv. NL  [*twee mensen*]{.ex}: 
+<br> = 3 morfemen, maar waarom 2 woorden?
+
+Diagnosticeren met een aantal aanwijzingen voor "*wordhood*"
+
+Aanwijzing 1: onafhankelijk kunnen gebruiken:
+
+* A :  twee mensen ; B :  drieǃ
+* \?A :  twee mensen ; B :  -jesǃ
+
+## Woorden vs. morfemen
+
+bv. NL  [*twee mensen*]{.ex}: 
+<br> = 3 morfemen, maar waarom 2 woorden?
+
+Aanwijzing 2: potentiële pauzes
+
+* twee …eh mensen
+* \? twee mens … eh - en
+
+Aanwijzing 3: invoegen elementen
+
+* twee onschuldige  mensen
+* \* twee mens-[onschuldige]-en
+
+## (On)geleed
+
+2 types van woorden:
+
+* geleed: op te  splitsen in morfemen (bv  [*mens-en*]{.ex})
+* ongeleed: niet  verder op te  splitsen (bv  [*twee*]{.ex})
+
+## Allomorfie
+
+[Allomorfie]{.alert2} = verschillende  realisaties van hetzelfde  morfeem
+<br>(vgl. allofonie bij fonologie)
+<br> → bepaald of geconditioneerd worden op verschillende manieren
+
+[1. fonetisch]{.alert2}
+
+* NL [*vul-de*]{.ex} vs [*kap-te*]{.ex}
+
+* [Morrobolam (Pama-Nyungan, Australië)](https://en.wikipedia.org/wiki/Morrobolam_language){target="_blank"} [*ebel-u*]{.ex} ‘oever-LOCATIEF’ vs [*emam-i*]{.ex} ‘huis-LOCATIEF’
+
+* Koreaans [*Inho-ka*]{.ex} 'Inho-SUBJECT' vs. [*Kisun-i*]{.ex} 'Kisun-SUBJECT'
+
+[2. lexicaal]{.alert2}
+
+* NL [*vul-de*]{.ex} vs [*viel*]{.ex}
+
+* Morrobolam [*ebel-u*]{.ex} 'over-LOC' vs [*aθa-l*]{.ex} 'vuur-LOC'
+
+
+# Aspecten van vorm
+
+## Vrij/gebonden
+
+Basistypes: vrij vs gebonden morfeem
+
+[1. vrij morfeem]{.alert2}: kan onafhankelijk voorkomen (als woord)
+
+* NL "mens" en "beeld" in [*mens-beeld-en*]{.ex}
+
+* [Umpithamu](https://en.wikipedia.org/wiki/Umpithamu_language){target="_blank"} [*ama*]{.ex} 'persoon', [*yuma*]{.ex} 'vuur'
+
+[2. gebonden]{.alert2}: kan enkel met ander morfeem voorkomen
+
+* NL "-je" ([*mens-je*]{.ex}), "ver-" en "-en" ([*ver-beeld-en*]{.ex})
+
+* Umpithamu "-mpal" ([*yuma-mpal*]{.ex} 'vuur-LOC'), "-ku" (ama-ku 'persoon- DATIEF')
+
+## Affixen
+
+Affix = gebonden morfeem dat ergens aan een bestaand (vaak vrij of combinatie van) morfeem wordt toegevoegd
+
+Soorten:
+
+[1. Prefix]{.alert2}: affix dat voor de stam wordt toegevoegd
+
+* NL [*be-zetten*]{.ex}, [*on-waar*]{.ex}
+* Umpithamu [*ty-angkutha*]{.ex} 'F-grootouder > oma'
+
+[2. Suffix]{.alert2}: affix dat achteraan de stam wordt toegevoegd
+
+* NL [*werk-te*]{.ex}, [*zit-ing*]{.ex}
+* Umpithamu [*angkutha-ku*]{.ex} 'grootouder-DAT'
+
+## Affixen
+
+[3. Infix]{.alert2}: affix dat de stam doorbreekt
+
+* [Isbukun Bunun](https://en.wikipedia.org/wiki/Bunun_language){target="_blank"} [*h\<in\>anup*]{.ex} '\<PAST\>jagen > joeg'
+* Engels [*abso\<fucking\>lutely*]{.ex}
+
+Noot: Engels [*farmers*]{.ex} is [niet]{.alert2} 'farm\<er\>s' maar wel 'farm-er-s'. Een affix is geen infix omdat het tussen twee andere morfemen staat!
+
+[4. Circumfix]{.alert2}: affix dat rondom een stam wordt geplaatst
+
+* NL [*ge-handel-d*]{.ex}, [*ge-loop-en*]{.ex}
+
+## Affixen
+
+
+[5. Interfix]{.alert2}: affix dat tussen twee delen van een samenstelling geplaatst wordt (en vaak geen extra betekenis draagt)
+
+* NL [*kip-en-soep*]{.ex}
+* NL [*beroep-s-ethiek*]{.ex}
+* NL [*koning-in-e-hap-je*]{.ex}
+
+[6. Templaat]{.alert2}: reeks affixen met onafhankelijke	beregeling volgorde
+
+* [Kiswahili](https://en.wikipedia.org/wiki/Swahili_language){target="_blank"} 
+<br>[*wa-li-ni-ona*]{.ex} 
+<br>3PL-PST-1SG-zien
+<br>"ze zagen mij"
+
+## Affixen
+
+
+[7. Clitics]{.alert2} (NL *clitica*)
+
+bv. de "'s" in Engels [*Paul's car*]{.ex}
+
+→ is dit een suffix?
+<br> analyse als *paul-s car*?
+
+→ het is veel vrijer
+<br> vgl. [[Paul who lives next door]'s car]{.ex}
+
+Analyse
+<br> paul=s car 'Paul=GENITIVE car > Paul's car'
+
+
+
+# Tegen volgende week
+
+## Oefeningen
+
+Fonologie
+
+* Maleis
+* Palauaans
+
+Vragen
+
+* Stel vragen over hoofdstukken 7-11 (+ wat we tot nu toe gezien hebben)
+
+
+
+
+
+
+
+
+
+
+
