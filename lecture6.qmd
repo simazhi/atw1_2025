@@ -226,7 +226,7 @@ Oud-Nederlands $/r\,\,V_{kort}\,\,C_{dentaal}/ > /V_{kort}\,\,r \,\,C_{dentaal}/
 [Monoftongering / diftongering]{.alert}
 <br> *huis* /ɦœys/ vs. /ɦœs/ < MNl. /hu:s/
 
-[Ronding / [ontronding]{.alert} ([zie hier](https://nl.wikipedia.org/wiki/Ontronding)){target="_blank"}
+[Ronding / [ontronding]{.alert} ([zie hier](https://nl.wikipedia.org/wiki/Ontronding){target="_blank"})
 <br> /zeven/ vs. /zøven/
 
 [Verdoffing]{.alert} 
@@ -484,7 +484,7 @@ Aanwijzing 3: invoegen elementen
 
 * NL [*vul-de*]{.ex} vs [*viel*]{.ex}
 
-* Morrobolam [*ebel-u*]{.ex} 'over-LOC' vs [*aθa-l*]{.ex} 'vuur-LOC'
+* Morrobolam [*ebel-u*]{.ex} 'oever-LOC' vs [*aθa-l*]{.ex} 'vuur-LOC'
 
 
 # Aspecten van vorm
