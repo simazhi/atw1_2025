@@ -1,0 +1,465 @@
+---
+title: Algemene taalkunde I
+subtitle: Morfologie (2)
+format: 
+  kulqlvl-revealjs:
+    # self-contained: true
+    # chalkboard: true
+    slide-number: true
+    code-line-numbers: true
+    embed-resources: true
+    incremental: false
+    # multiplex: true
+# html-math-method:
+#   method: mathjax
+#   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Dr. Thomas Van Hoey
+    # orcid: 0000-0002-5226-9752
+    email: thomas.vanhoey@kuleuven.be
+    # affiliation:
+    #   - name: QLVL @ KU Leuven
+        # url: www.ed.ac.uk
+# date: "2 October 2025"
+logo: inputfiles/kul.png
+# bibliography: refs.bib
+# code-link: true
+# code-copy: true
+highlight-style: "github" # pygments, github
+# footer: Go to [osf.io/598fk](https://osf.io/598fk) for materials
+---
+
+# Vragen 
+
+## Termen
+
+::: {.callout-note}
+Wat moeten we juist kennen uit de hoofdstukken die niet in de zelfstudielijst staan  (H1-7)?
+Moeten we ze gewoon even lezen of is dat, in detail, te kennen materie voor het examen?
+
+:::
+
+De hoofdstukken die niet in de zelfstudielijst staan (lexicon en semantiek) mag je gerust lezen maar dat hoeft niet per se. 
+Deze dingen komen aan bod in ATW 2.
+
+Er zal in ieder geval niet gevraagd worden om termen te verklaren die in die hoofdstuk staan, tenzij ze ook aan bod kwamen tijdens de lessen.
+
+
+
+<!-- ## Termen -->
+
+<!-- ::: {.callout-note} -->
+<!-- Moet je de termen van de hoofstukken die we in de les behandelen ook leren uit het handboek? Want sommige komen niet overeen. -->
+<!-- ::: -->
+
+<!-- Geef vooral aandacht aan wat we in de les zien. -->
+<!-- De meeste termen komen ook aan bod tijdens de lessen, maar misschien niet in dezelfde volgorde. -->
+
+<!-- Bv. vandaag zien we [paradigma]{.alert2} (p. 11) maar pas bij syntaxis kijken we naar de term [syntagmatisch]{.alert2} (p. 10) -->
+
+<!-- ## Termen -->
+
+<!-- ::: {.callout-note} -->
+<!-- Sommige termen komen niet overeen, bv. bij de design features (Hockett) zagen we geen reflexiviteit (p. 15) -->
+
+<!-- ::: -->
+
+<!-- [Reflexiviteit]{.alert2}: de eigenschap van taal dat taal gebruikt wordt om over zichzelf te praten. -->
+<!-- <br> Technisch gezien noemt Hockett (1960) dit niet zo, maar het design feature dat het dichtst erbij in de buurt komt is [total feedback]{.alert2}, nl.  het idee de taalgebruiker zich ook bewust is van wat hij zegt, en dus ook op een reflexieve manier de talige elementen eruit kan halen. -->
+<!-- <br> Beide termen zijn oke. -->
+
+<!-- Denk bv. aan op de trein zitten en luisteren naar wat mensen zeggen vs. bemerken hoe ze dit zeggen (accentinvloeden, *slang*, jargon, etc.) -->
+
+
+# Oefeningen
+
+## Fonologie
+
+* Maleis
+* Palauaans
+
+→ Cuzco Quechua moet je nog niet voorbereiden.
+We behandelen deze oefening in de laatste weken, als opfrisser voor het examen.
+
+
+
+
+# Herhaling van vorige week
+
+## Morfologie
+
+Wat is een woord?
+
+Wat zijn aanwijzingen voor *wordhood*?
+
+::: {.fragment}
+1. onafhankelijk gebruik
+2. potentiële pauzes
+3. invoegen elementen
+
+:::
+
+# Aspecten van vorm
+
+## Vrij/gebonden
+
+Basistypes: vrij vs gebonden morfeem
+
+[1. vrij morfeem]{.alert2}: kan onafhankelijk voorkomen (als woord)
+
+* NL "mens" en "beeld" in [*mens-beeld-en*]{.ex}
+
+* [Umpithamu](https://en.wikipedia.org/wiki/Umpithamu_language){target="_blank"} [*ama*]{.ex} 'persoon', [*yuma*]{.ex} 'vuur'
+
+[2. gebonden]{.alert2}: kan enkel met ander morfeem voorkomen
+
+* NL "-je" ([*mens-je*]{.ex}), "ver-" en "-en" ([*ver-beeld-en*]{.ex})
+
+* Umpithamu "-mpal" ([*yuma-mpal*]{.ex} 'vuur-LOC'), "-ku" (ama-ku 'persoon- DATIEF')
+
+## Affixen
+
+Affix = gebonden morfeem dat ergens aan een bestaand (vaak vrij of combinatie van) morfeem wordt toegevoegd
+
+Soorten:
+
+[1. Prefix]{.alert2}: affix dat voor de stam wordt toegevoegd
+
+* NL [*be-zetten*]{.ex}, [*on-waar*]{.ex}
+* Umpithamu [*ty-angkutha*]{.ex} 'F-grootouder > oma'
+
+[2. Suffix]{.alert2}: affix dat achteraan de stam wordt toegevoegd
+
+* NL [*werk-te*]{.ex}, [*zit-ing*]{.ex}
+* Umpithamu [*angkutha-ku*]{.ex} 'grootouder-DAT'
+
+## Affixen
+
+[3. Infix]{.alert2}: affix dat de stam doorbreekt
+
+* [Isbukun Bunun](https://en.wikipedia.org/wiki/Bunun_language){target="_blank"} [*h\<in\>anup*]{.ex} '\<PAST\>jagen > joeg'
+* Engels [*abso\<fucking\>lutely*]{.ex}
+
+Noot: Engels [*farmers*]{.ex} is [niet]{.alert2} 'farm\<er\>s' maar wel 'farm-er-s'. Een affix is geen infix omdat het tussen twee andere morfemen staat!
+
+[4. Circumfix]{.alert2}: affix dat rondom een stam wordt geplaatst
+
+* NL [*ge-handel-d*]{.ex}, [*ge-loop-en*]{.ex}
+
+## Affixen
+
+
+[5. Interfix]{.alert2}: affix dat tussen twee delen van een samenstelling geplaatst wordt (en vaak geen extra betekenis draagt)
+
+* NL [*kip-en-soep*]{.ex}
+* NL [*beroep-s-ethiek*]{.ex}
+* NL [*koning-in-e-hap-je*]{.ex}
+
+[6. Templaat]{.alert2}: reeks affixen met onafhankelijke	beregeling volgorde
+
+* [Kiswahili](https://en.wikipedia.org/wiki/Swahili_language){target="_blank"} 
+<br>[*wa-li-ni-ona*]{.ex} 
+<br>3PL-PST-1SG-zien
+<br>"ze zagen mij"
+
+## Affixen
+
+[7. Clitics]{.alert2} (NL *clitica*)
+
+bv. de "'s" in Engels [*Paul's car*]{.ex}
+
+→ is dit een suffix?
+<br> analyse als *paul-s car*?
+
+→ het is veel vrijer
+<br> vgl. [[Paul who lives next door]'s car]{.ex}
+
+Analyse
+<br> paul=s car 'Paul=GENITIVE car > Paul's car'
+
+
+
+## Samenstelling, inflectie, derivatie
+
+Types gelede woorden
+
+1. [Samenstelling]{.alert}: combinatie  vrije  morfemen
+
+* NL [*huis-deur*]{.ex}, [*mens-beeld*]{.ex}
+* Umpithamu [*ngarrkal-wiingal*]{.ex} 'maan-boemerang > halve maan'
+
+2. [Inflectie]{.alert} of [derivatie]{.alert}: vrije  morfemen  en  affixen
+<br> (zie ook hierna)
+
+* NL [*werk-en*]{.ex}, [*mens-achtig*]{.ex}
+* Umpithamu [*ngarrkal-mpal*]{.ex} 'maan-LOC'
+
+
+# Aspecten van betekenis
+
+## Basisonderscheid: lexicaal vs grammaticaal
+
+```{r}
+library(glossr)
+use_glossr()
+
+lex_gram_nl <- as_gloss(
+  "De student-en werk-en hard.",
+  "DET student-PL werk-PL ADV",
+  translation = "De studenten werken hard.",
+  source = "Nederlands"
+)
+
+lex_gram_morrobolam <- as_gloss(
+  "Ama  utna-m=na  logaparr-u.",
+  "persoon  liggen-PRS=3PL.NOM  rivier-LOC",
+  translation = "De mensen  kamperen  bij de rivier.",
+  source = "Morrobolam"
+)
+
+lex_gram_nl
+
+lex_gram_morrobolam
+
+```
+
+→ Wat zijn de lexicale vs grammaticale  morfemen in deze voorbeelden?
+
+## Excursie: Leipzig glossing rules
+
+De weergave die we daarnet zagen, noemt men [glossen]{.alert}.
+
+Belangrijkste regels
+
+* woorden gescheiden door spaties
+* morfemen gescheiden door liggend streepje
+* fusionele morfemen gescheiden door punt
+* alles netjes onder elkaar
+
+*Een* redelijk afgesproken kader om dit te doen: [Leipzig glossing rules](https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf){target="_blank"}
+
+* *moet je niet kennen, maar als je geïnteresseerd bent...*
+
+## Basisonderscheid: lexicaal vs grammaticaal
+
+[lexicaal]{.alert2}:
+<br> → verwijst  typisch  naar object, actie , eigenschap  etc
+<br> typisch open klasse (nieuwe  leden  mogelijk)
+
+* NL  [*kat, rauw, zitten, smartphone, sms'en*]{.ex}
+* Umpithamu  [*ama*]{.ex} 'persoon', [*atha-*]{.ex} 'bijten', [*waypala*]{.ex} 'blanke', [*yarraman*]{.ex} 'paard'
+
+
+
+## Basisonderscheid : lexicaal vs grammaticaal
+
+[grammaticaal]{.alert2}:
+<br> → geeft  informatie over grammaticale  structuur
+<br> typisch  gesloten  klasse ( geen  nieuwe  leden )
+
+* NL [*werk-[t]{.alert2}, van*]{.ex}
+* Umpithamu [*amu-[ku]{.alert2}*] 'persoon-DAT', [*pa*]{.ex} 'REFLEXIEF'
+
+## Grammaticale  morfemen
+
+Meest  typisch  gebonden (zie  eerder),	maar kan  ook  vrij (o.a.  afhankelijk van taaltype):
+
+[vrije  grammaticale morfemen]{.alert}
+
+* Umpithamu  *ama-[ku]{.ex}* 'persoon-DAT' vs NL  *[voor]{.ex} de man*
+* NL  *werk-[te]{.ex}* vs *[heeft]{.ex}  gewerkt*
+
+
+## Lexicale  morfemen
+
+Meest  typisch  vrij (zie  eerder), maar kan  ook  gebonden:
+
+[gebonden  stammen]{.alert}
+
+* NL  *visie* vs [*vision-*]{.ex} (bv *vision-air*)
+* Umpithamu  [*atha-*]{.ex} 'bijten' (bv  *atha-n*  bijten-PST )
+
+[derivationele  affixen]{.alert}
+
+* NL  *werk-[ing]{.ex}*, *tell-[er]{.ex}*
+
+
+## Derivatie vs inflectie
+
+[Derivatie]{.alert2}, ook wel [afleiding]{.alert2} genoemd
+<br><br>
+[Inflectie]{.alert2}, ook wel [verbuiging / declinatie]{.alert2} genoemd voor naamwoorden, en [vervoeging / conjugatie]{.alert2} voor werkwoorden.
+
+
+::: {.fragment}
+Inflectie = aanpassen  woord  aan  grammaticale context 
+
+* *Het kind [reken-t]{.ex}.*
+
+Derivatie = creëren  nieuw  woord
+
+* *reken(-en)* → [*reken-ing*]{.ex}
+
+
+→ Vraag: welke criteria kunnen we daarvoor hanteren?
+
+:::
+
+
+
+
+## Derivatie vs inflectie : criteria
+
+
+criterion   |     derivatie      |     inflectie
+------------|--------------------|-------------
+1. betekenis |  (soms) concreet, groot effect op stam | abstract, beperkt effect op stam 
+2. vervangbaarheid | stam+affix  vervangbaar door ongeleed  woord | stam+affix  niet  vervangbaar door ongeleed  woord
+3. regelmaat  | betekenis  mogelijks  onregelmatig, niet  altijd  volledig  productief |  regelmatige  betekenis, productief
+4. volgorde | dichter bij stam | verder weg van stam
+
+
+Voorbeelden
+
+* n 2 derivatie: *reken-ing* vs *bon*, *factuur*
+* n 3 derivatie: vgl. ver-snel-ing , ver-zeker-ing , reken-ing , \*loop-ing
+* n 4 reken-ing-en :: STAM-DER-INFL
+
+
+# Morfologische  relaties
+
+## Paradigma 
+
+Paradigma: groep  morfologisch  verwante  vormen (typisch  inflectionele  vormen van 1 stam)
+
+bv. Latijn 'vriend'
+
+naamval  | SG   |  PL
+---------|------|------
+NOM      | amic-us | amic-i
+ACC      | amic-um | amic-os
+GEN      | amic-i  | amic-orum
+DAT      | amic-o  | amic-is
+ABL      | amic-o  | amic-is
+
+
+## Bijzondere  relaties  binnen  paradigma’s
+
+[1. suppletie]{.alert2} = fonologisch  niet  verwante  vormen  als  allomorfen
+ 
+* NL  *[goed]{.ex}, [bet]{.ex}-er*
+* Umpithamu  *[inuwa]{.ex}*  2SG.NOM, *[ingkuna]{.ex}*  2SG.GEN
+* Oud-Grieks 'zien' maakt gebruik van verschillende stammen, bv. ὁρά (hora-); ὀψ- (ops-) en ὀπ- (op-); εἰδ- (eid-) en ἰδ- (id-) 
+
+
+[2. syncretisme]{.alert2} = dezelfde  vorm  voor  verschillende  betekenissen
+
+* Latijn: DAT  en  ABL in paradigma  *amicus*: [*amico*]{.ex} en [*amicis*]{.ex}
+
+[3. zero-morfemen]{.alert2} = betekenisvolle  afwezigheid van vorm in paradigma
+
+SG |  PL  | → |  SG  |  PL
+---|------|----|---|-----
+cat | cats |  | cat  |  cat-[s]{.ex}
+sheep | sheep |  | sheep | sheep-[$\emptyset$]{.ex}
+
+
+Noot: soms wordt ook cat-$\emptyset$ geponeerd voor enkelvoud <br>
+maar dit is paradigmatisch een ander type zero
+
+# Taaltypology obv morfologie 
+
+Zie ook hoofdstuk 15 in McGregor (2024) 
+
+## 1. isolerende taal
+
+* vrijwel geen gebonden morfemen
+* bijna elk woord monomorfemisch
+
+```{r}
+morf_kc1 <- as_gloss(
+  "(吾) 將 歸 蜜",
+  "wú jiāng guī mì",
+  "1 FUT terugbrengen honing",
+  translation = "Ik zal de honing terugbrengen.",
+  source = "Klassiek Chinees"
+)
+
+morf_kc1
+```
+
+## 2. agglutinerende taal
+
+* morfologisch complexe woorden
+* gemakkelijk te onderverdelen in morfemen
+<br> idee van een trein met verschillende wagons
+
+```{r}
+morf_fin <- as_gloss(
+  "tuo-n hunanja-n takaisin",
+  "brengen-1.SG honing-ACC terug",
+  translation = "Ik zal de honing terugbrengen.",
+  source = "Fins"
+)
+
+morf_fin
+```
+
+##  3. fusionele / inflecterende taal
+
+* morfologisch complexe woorden
+* soms moeilijk om morfemen van elkaar te onderscheiden
+
+```{r}
+morf_lat <- as_gloss(
+  "re-fer-am mel",
+  "terug-dragen-1.SG.FUT honing.ACC.O",
+  translation = "Ik zal de honing terugbrengen.",
+  source = "Latijn"
+)
+
+morf_lat
+``` 
+
+##  4. polysynthetische taal
+
+* morfologisch zeer complexe woorden
+* morfemen kunnen niet gescheiden worden van elkaar
+
+```{r}
+morf_goo <- as_gloss(
+  "ngalinya barn-ja-wi-l-arri",
+  "honing terugkomen-SBJ-FUT-1SG-3SG.CL",
+  translation = "Ik zal de honing terugbrengen.",
+  source = "Gooniyandi"
+)
+
+morf_goo
+```
+
+# Oefeningen morfologie
+
+
+
+
+
+
+
+
+
+# Tegen volgende week
+
+## Oefeningen
+
+Bereid de volgende oefening van morfologie voor.
+
+
+
+
+
+
+
+
+
+
+
